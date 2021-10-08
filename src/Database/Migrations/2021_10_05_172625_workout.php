@@ -19,6 +19,7 @@ class Workout extends Migration
             $table->string('slug',255);
             $table->string('image_url',255);
             $table->text('descp');
+            $table->integer('created_by');
             $table->enum('status',['0','1'])->default('1');
             $table->dateTime('created_at')->default(\DB::raw('CURRENT_TIMESTAMP'));
             $table->dateTime('updated_at')->nullable();
