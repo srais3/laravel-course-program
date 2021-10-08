@@ -1,0 +1,33 @@
+{
+    "name": "retrocube/programworkout",
+    "description": "The app will allow users to view different fitness plans/programs and keep track",
+    "license": "MIT",
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/contracts": "^8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^9.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Retrocube\\ProgramWorkout\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Retrocube\\ProgramWorkout\\Tests\\": "tests"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Retrocube\\ProgramWorkout\\Providers\\WorkoutServiceProvider"
+            ]
+        }
+    }
+}
