@@ -32,7 +32,7 @@ class WorkoutSeeder extends Seeder
             ],
             [
                 'title'        => 'HIIT30',
-                'slug'         => 'hiits30000',
+                'slug'         => 'hiits30',
                 'image_url'    => '/workout/banner2.png',
                 'descp'        => 'This is the process of limiting calorie intake to a specific time frame that aligns with our circadian rhythm. Circadian rhythm is often referred to as our.',
                 'created_by'   => '1',
